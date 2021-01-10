@@ -11,6 +11,7 @@ package randomnumber;
 
 // IMPORTAÇÃO DE BIBLIOTECAS:
 import java.util.Random;
+import javax.swing.ImageIcon;
 import javax.swing.JOptionPane;
 import javax.swing.SwingConstants;
 import javax.swing.plaf.basic.BasicComboBoxRenderer;
@@ -28,6 +29,8 @@ public class RandomNumberFrame extends javax.swing.JFrame {
     public RandomNumberFrame() {
         
         initComponents();
+        ImageIcon icone = new ImageIcon(getClass().getResource("/icones/chart_pie_add.png"));
+        setIconImage(icone.getImage());
         
         UIResource.setHorizontalAlignment(SwingConstants.CENTER);  
         txt_quantia_de_itens.setRenderer(UIResource);
