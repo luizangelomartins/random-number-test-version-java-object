@@ -1,1 +1,1 @@
-@ random-number-test-version-java-object
+PROGRAMA SIMPLES PARA GERAR NÚMEROS ALEATÓRIOS.
